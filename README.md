@@ -4,48 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Formulario #1</title>
-  <style media="screen">
-    *{font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
-    table {width: 420px;}
-    td {padding: 10px;}
-  fieldset {padding: 10px; border: 1px solid #ccc; width: 420px; margin: 0 auto;}
-  legend {text-align: right; font-style: italic; font-size: 20px; font-weight: bold; color: #999;}
-  input [type=text], input[text=Email], textarea {padding: 5px; font-style: 18px; border: 1px solid #ccc; width: 300px;}
-  </style>
+  <title>Document</title>
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="http://" target="_blanck">link 1</a></li>
+        <li><a href="http://" target="_blanck">link 2</a></li>
+        <li><a href="http://" target="_blanck">link 3</a></li>
+        <li><a href="http://" target="_blanck">link 4</a></li>
+        <li><a href="http://" target="_blanck">link 5</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <section>
-      <form action="" method="post">
-        <fieldset>
-          <legend>Datos personales</legend>
-          <table>
-            <tr>
-              <td align="right">Nombre:</td>
-              <td><input type="text" name="nombre" required autofocus></td>
-            </tr>
-            <tr>
-              <td aling="right">Email:</td>
-              <td><input type="email" name="Correo" id="" required></td>
-            </tr>
-            <tr>
-              <td aling="right">Movil:</td>
-              <td><input type="text" name="Movil" required pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Debes escribir un numero de telefono valido. Ej: 123 456 7890"></td>
-            </tr>
-            <tr>
-              <td aling="right" valing="top">Mensaje:</td>
-              <td><textarea name="mensaje" id="" cols="30" rows="4" required></textarea></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td><input type="image" src="img/Boton.png" alt="Enviar Datos" width="120" height="40"></td>
-            </tr>
-          </table>
-        </fieldset>
-      </form>
-
+      <articles>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui recusandae dolorum, iste, velit ipsa obcaecati distinctio asperiores ipsam commodi cumque dolor autem nobis nisi libero, quam odit. Accusantium, adipisci ipsa.</p>
+        <p>Voluptatibus quia repudiandae, illum saepe. Porro fuga facere ad culpa saepe nisi nulla aperiam quod molestias soluta, dignissimos voluptatum, distinctio, ut, eaque aliquid? Mollitia magnam eaque est perferendis. Fugiat, consequuntur.</p>
+        <p>Accusantium sapiente doloremque aperiam quasi aspernatur ab omnis veniam sed nihil, incidunt consequuntur unde voluptatum maiores harum odit nemo adipisci iusto. Mollitia, delectus hic velit cum blanditiis alias tempore quis!</p>
+      </articles>
     </section>
   </main>
+  <footer>
+    <p>copyright &copy; 2020 - Felipe suarez</p>
+  </footer>
 </body>
 </html>
