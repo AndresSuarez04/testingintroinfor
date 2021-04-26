@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Estructura HTML5</title>
 </head>
 <body>
   <header>
+    <h1>DEPORT FAST</h1>
     <nav>
       <ul>
-        <li><a href="http://" target="_blanck">link 1</a></li>
-        <li><a href="http://" target="_blanck">link 2</a></li>
-        <li><a href="http://" target="_blanck">link 3</a></li>
-        <li><a href="http://" target="_blanck">link 4</a></li>
-        <li><a href="http://" target="_blanck">link 5</a></li>
+        <li><a href="http://" target="_blank">Galeria </a></li>
+        <li><a href="http://" target="_blank">Servicios </a></li>
+        <li><a href="http://" target="_blank">Productos </a></li>
+        <li><a href="http://" target="_blank">Contactos</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section>
-      <articles>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui recusandae dolorum, iste, velit ipsa obcaecati distinctio asperiores ipsam commodi cumque dolor autem nobis nisi libero, quam odit. Accusantium, adipisci ipsa.</p>
-        <p>Voluptatibus quia repudiandae, illum saepe. Porro fuga facere ad culpa saepe nisi nulla aperiam quod molestias soluta, dignissimos voluptatum, distinctio, ut, eaque aliquid? Mollitia magnam eaque est perferendis. Fugiat, consequuntur.</p>
-        <p>Accusantium sapiente doloremque aperiam quasi aspernatur ab omnis veniam sed nihil, incidunt consequuntur unde voluptatum maiores harum odit nemo adipisci iusto. Mollitia, delectus hic velit cum blanditiis alias tempore quis!</p>
-      </articles>
+      <header>
+        <h2>Deportes</h2>
+        <h3>Seccion calificada por hombres</h3>
+      </header>
+      <article>
+        <h4>FUTBOL</h4>
+        <section>
+          <article>
+            <p>Deporte que se practica entre dos equipos de once jugadores que tratan de introducir un balón en la portería del contrario impulsándolo con los pies, la cabeza o cualquier parte del cuerpo excepto las manos y los brazos; en cada equipo hay un portero, que puede tocar el balón con las manos, aunque solamente dentro del área; vence el equipo que logra más goles durante los 90 minutos que dura el encuentro.
+            </p>
+          </article>
+        </section>
+        <figure>
+          <img src="img/Everton.jpg" alt="Futbol, el deporte con mas aficion a nivel mundial">
+          <figcaption>
+          James Rodriguez la rompe en el Everton
+          </figcaption>
+        </figure>
+        <section>
+          <h5>Es el deporte mas visto a nivel mundial</h5>
+        </section>
+      </article>
+      <article>
+        <h4>BALONCESTO</h4>
+        <section>
+          <article>
+            <p>Deporte que se practica, en una cancha rectangular, entre dos equipos de cinco jugadores que tratan de introducir el balón en la canasta contraria, que se encuentra a una altura de 3,05 m, valiéndose solo de las manos; los encestes valen uno, dos o tres puntos y gana el equipo que logra más puntos en los 40 minutos que dura el encuentro.</p>
+          </article>
+        </section>
+      </article>
+      <footer>
+        <p>Para mas informacion acerca de los deportes puedes suscribirte</p>
+      </footer>
     </section>
   </main>
+  <aside>
+    Aqui se puede agregar informacion no revelante al contenido del documento mismo
+  </aside>
   <footer>
-    <p>copyright &copy; 2020 - Felipe suarez</p>
+    Derechos Reservados	&copy; 2017 - Andres Suarez
   </footer>
 </body>
 </html>
