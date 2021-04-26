@@ -4,29 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Formulario #1</title>
+  <style media="screen">
+    *{font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+    table {width: 420px;}
+    td {padding: 10px;}
+  fieldset {padding: 10px; border: 1px solid #ccc; width: 420px; margin: 0 auto;}
+  legend {text-align: right; font-style: italic; font-size: 20px; font-weight: bold; color: #999;}
+  input [type=text], input[text=Email], textarea {padding: 5px; font-style: 18px; border: 1px solid #ccc; width: 300px;}
+  </style>
 </head>
 <body>
   <main>
     <section>
-      <article>
-        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 width="240px" height="300px" viewBox="0 0 1773 2500" enable-background="new 0 0 1773 2500" xml:space="preserve">
-        <path fill="#E44D26" d="M1769.771,490.069l-160.948,1803.047l-723.477,200.568l-721.481-200.291L3.081,490.069H1769.771
-        	L1769.771,490.069z"/>
-        <path fill="#F16529" d="M886.426,2340.374l584.605-162.07l137.535-1540.79H886.426V2340.374z"/>
-        <path fill="#EBEBEB" d="M573.545,1079.861h312.881v-221.17H331.835l5.291,59.335l54.362,609.487h494.938v-221.17H593.76
-        	L573.545,1079.861z M623.393,1638.103H401.371l30.983,347.271l453.054,125.762l1.018-0.277v-230.11l-0.969,0.256l-246.316-66.51
-        	L623.393,1638.103L623.393,1638.103z"/>
-        <path d="M167.451,0h112.396v111.046h102.818V0h112.402v336.274H382.673V223.67H279.855v112.604H167.458V0H167.451z M642.866,111.517
-        	h-98.934V0H854.28v111.517h-98.996v224.758H642.888V111.517h-0.007H642.866z M903.531,0h117.195l72.092,118.158L1164.84,0h117.244
-        	v336.274h-111.939V169.598l-77.326,119.564h-1.939l-77.375-119.564v166.676H903.531V0z M1338.019,0h112.431v225.125h158.062v111.15
-        	h-270.499V0H1338.019z"/>
-        <path fill="#FFFFFF" d="M885.664,1527.514h272.348l-25.679,286.842l-246.676,66.579v230.098l453.414-125.658l3.324-37.368
-        	l51.98-582.271l5.396-59.391H885.664V1527.514L885.664,1527.514z M885.664,1079.321v0.54h534.231l4.433-49.709l10.083-112.126
-        	l5.283-59.335h-554.03v220.637V1079.321z"/>
-        </svg>
-      </article>
+      <form action="" method="post">
+        <fieldset>
+          <legend>Datos personales</legend>
+          <table>
+            <tr>
+              <td align="right">Nombre:</td>
+              <td><input type="text" name="nombre" required autofocus></td>
+            </tr>
+            <tr>
+              <td aling="right">Email:</td>
+              <td><input type="email" name="Correo" id="" required></td>
+            </tr>
+            <tr>
+              <td aling="right">Movil:</td>
+              <td><input type="text" name="Movil" required pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Debes escribir un numero de telefono valido. Ej: 123 456 7890"></td>
+            </tr>
+            <tr>
+              <td aling="right" valing="top">Mensaje:</td>
+              <td><textarea name="mensaje" id="" cols="30" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="image" src="img/Boton.png" alt="Enviar Datos" width="120" height="40"></td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+
     </section>
   </main>
 </body>
