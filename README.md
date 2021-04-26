@@ -1,51 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Formulario #1</title>
-  <style media="screen">
-    *{font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
-    table {width: 420px;}
-    td {padding: 10px;}
-  fieldset {padding: 10px; border: 1px solid #ccc; width: 420px; margin: 0 auto;}
-  legend {text-align: right; font-style: italic; font-size: 20px; font-weight: bold; color: #999;}
-  input [type=text], input[text=Email], textarea {padding: 5px; font-style: 18px; border: 1px solid #ccc; width: 300px;}
-  </style>
+  <title>Estructura HTML5</title>
 </head>
 <body>
+  <header>
+    <h1>DEPORT FAST</h1>
+    <nav>
+      <ul>
+        <li><a href="http://" target="_blank">Galeria </a></li>
+        <li><a href="http://" target="_blank">Servicios </a></li>
+        <li><a href="http://" target="_blank">Productos </a></li>
+        <li><a href="http://" target="_blank">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <section>
-      <form action="" method="post">
-        <fieldset>
-          <legend>Datos personales</legend>
-          <table>
-            <tr>
-              <td align="right">Nombre:</td>
-              <td><input type="text" name="nombre" required autofocus></td>
-            </tr>
-            <tr>
-              <td aling="right">Email:</td>
-              <td><input type="email" name="Correo" id="" required></td>
-            </tr>
-            <tr>
-              <td aling="right">Movil:</td>
-              <td><input type="text" name="Movil" required pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Debes escribir un numero de telefono valido. Ej: 123 456 7890"></td>
-            </tr>
-            <tr>
-              <td aling="right" valing="top">Mensaje:</td>
-              <td><textarea name="mensaje" id="" cols="30" rows="4" required></textarea></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td><input type="image" src="img/Boton.png" alt="Enviar Datos" width="120" height="40"></td>
-            </tr>
-          </table>
-        </fieldset>
-      </form>
-
+      <header>
+        <h2>Deportes</h2>
+        <h3>Seccion calificada por hombres</h3>
+      </header>
+      <article>
+        <h4>FUTBOL</h4>
+        <section>
+          <article>
+            <p>Deporte que se practica entre dos equipos de once jugadores que tratan de introducir un balón en la portería del contrario impulsándolo con los pies, la cabeza o cualquier parte del cuerpo excepto las manos y los brazos; en cada equipo hay un portero, que puede tocar el balón con las manos, aunque solamente dentro del área; vence el equipo que logra más goles durante los 90 minutos que dura el encuentro.
+            </p>
+          </article>
+        </section>
+        <figure>
+          <img src="img/Everton.jpg" alt="Futbol, el deporte con mas aficion a nivel mundial">
+          <figcaption>
+          James Rodriguez la rompe en el Everton
+          </figcaption>
+        </figure>
+        <section>
+          <h5>Es el deporte mas visto a nivel mundial</h5>
+        </section>
+      </article>
+      <article>
+        <h4>BALONCESTO</h4>
+        <section>
+          <article>
+            <p>Deporte que se practica, en una cancha rectangular, entre dos equipos de cinco jugadores que tratan de introducir el balón en la canasta contraria, que se encuentra a una altura de 3,05 m, valiéndose solo de las manos; los encestes valen uno, dos o tres puntos y gana el equipo que logra más puntos en los 40 minutos que dura el encuentro.</p>
+          </article>
+        </section>
+      </article>
+      <footer>
+        <p>Para mas informacion acerca de los deportes puedes suscribirte</p>
+      </footer>
     </section>
   </main>
+  <aside>
+    Aqui se puede agregar informacion no revelante al contenido del documento mismo
+  </aside>
+  <footer>
+    Derechos Reservados	&copy; 2017 - Andres Suarez
+  </footer>
 </body>
 </html>
